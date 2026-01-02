@@ -3,7 +3,7 @@ import csv
 
 
 # asep titles from csv
-def load_asep_project_titles(filename="Course Project/asep_project.csv"):
+def load_asep_project_titles(filename="asep_project.csv"):
     try:
         with open(filename,"r") as file:
             reader = csv.reader(file)
@@ -13,7 +13,7 @@ def load_asep_project_titles(filename="Course Project/asep_project.csv"):
         return []
     
 # module 1 psp titles from csv
-def load_psp_cp_titles(filename="Course Project/psp_cp.csv"):
+def load_psp_cp_titles(filename="psp_cp.csv"):
     try: 
         with open(filename,"r") as file:
             reader=csv.reader(file)
@@ -23,7 +23,7 @@ def load_psp_cp_titles(filename="Course Project/psp_cp.csv"):
         return []
     
 # module 1 wd titles from csv
-def load_wd_cp_titles(filename="Course Project/wd_cp.csv"):
+def load_wd_cp_titles(filename="wd_cp.csv"):
     try:
         with open(filename,"r") as file:
             reader = csv.reader(file) 
@@ -33,7 +33,7 @@ def load_wd_cp_titles(filename="Course Project/wd_cp.csv"):
         return []
     
 # module 2 da titles from csv
-def load_da_cp_titles(filename="Course Project/da_cp.csv"):
+def load_da_cp_titles(filename="da_cp.csv"):
     try:
         with open(filename,"r") as file:
             reader=csv.reader(file)
@@ -43,7 +43,7 @@ def load_da_cp_titles(filename="Course Project/da_cp.csv"):
         return []
     
 # module 2 pfe titles from csv
-def load_pfe_cp_titles(filename="Course Project/pfe_cp.csv"):
+def load_pfe_cp_titles(filename="pfe_cp.csv"):
     try:
         with open(filename,"r") as file:
             reader=csv.reader(file)
@@ -53,7 +53,7 @@ def load_pfe_cp_titles(filename="Course Project/pfe_cp.csv"):
         return []
     
 # module 2 aem titles from csv
-def load_aem_cp_titles(filename="Course Project/aem_cp.csv"):
+def load_aem_cp_titles(filename="aem_cp.csv"):
     try:
         with open(filename,"r") as file:
             reader=csv.reader(file)
